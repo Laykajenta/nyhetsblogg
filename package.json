@@ -1,0 +1,23 @@
+{
+  "name": "nk",
+  "version": "1.0.0",
+  "description": "Nyhetsblogg using scss",
+  "homepage": "https://github.com/Laykajenta/nyhetsblogg#readme",
+  "bugs": {
+    "url": "https://github.com/Laykajenta/nyhetsblogg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laykajenta/nyhetsblogg.git"
+  },
+  "license": "ISC",
+  "author": "Laykajenta Design",
+  "type": "commonjs",
+  "main": "index.htnl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
