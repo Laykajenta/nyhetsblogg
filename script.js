@@ -35,8 +35,8 @@ window.addEventListener('scroll', checkScroll);
 const themeSwitcher = document.getElementById('theme-switcher');
 
 function updateThemeIcon(isDarkMode) {
-  themeSwitcher.children[0].textContent = isDarkMode ? 'Dark Mode' : 'Light Mode';
-  themeSwitcher.children[1].classList.replace(isDarkMode ? 'fa-sun' : 'fa-moon', isDarkMode ? 'fa-moon' : 'fa-sun');
+ 
+  themeSwitcher.children[0].classList.replace(isDarkMode ? 'fa-sun' : 'fa-moon', isDarkMode ? 'fa-moon' : 'fa-sun');
 }
 
 // Determine if dark mode is preferred

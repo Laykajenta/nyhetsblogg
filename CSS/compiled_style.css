@@ -11,7 +11,7 @@
   --box-shadow-container:var(--background);
 }
 
-:root {
+[data-theme=dark] {
   --background: rgb(18,18,18);
   --primary-color:hsl(225, 100%, 75%);
   --primary-font-color:rgb(150,150,150);
@@ -34,6 +34,31 @@ body {
   background: var(--background);
   font-family: "Inter", sans-serif;
   line-height: 1.6;
+}
+
+/* Dark Mode Switch */
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.theme-switcher span {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: var(--on-background);
+}
+
+.fas {
+  font-size: 30px;
+}
+
+.fas:hover {
+  transform: scale(1.1);
 }
 
 /* Scrollbar */
