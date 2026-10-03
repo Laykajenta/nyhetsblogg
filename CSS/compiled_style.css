@@ -23,6 +23,19 @@
   --box-shadow-container:rgb(31,31,31);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--background);
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
 /* Scrollbar */
 /* Width */
 ::-webkit-scrollbar {
