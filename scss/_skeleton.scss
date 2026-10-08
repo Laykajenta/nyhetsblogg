@@ -1,0 +1,42 @@
+/* Skeleton Styles */
+.featured-article-skeleton {
+  margin-bottom: 50px;
+}
+
+.article-skeleton {
+ @include article;
+}
+
+.skeleton-image,  {
+  height: 300px;
+}
+
+ {
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.skeleton-image, .skeleton-line {
+  background: linear-gradient(90deg, #e0e0e0, #f0f0f0, #e0e0e0);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-line--large {
+  height: 40px;
+  margin: 40px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
